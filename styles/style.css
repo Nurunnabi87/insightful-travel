@@ -6,6 +6,56 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: "Mulish", sans-serif;
+}
+
+.nav-logo-text {
+  color: #131318;
+  font-size: 36px;
+  font-weight: 800;
+}
+.nav-logo-text span {
+  color: #ff5400;
+}
+
+/* header section styles  */
+
+header {
+  margin: 50px 130px;
+}
+header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .nav-logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+header .nav-items {
+  color: #424247;
+  font-size: 18px;
+  font-weight: 400;
+}
+header .nav-items .item-1 {
+  color: #ff5400;
+  font-weight: 700;
+}
+header .nav-items ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+header .nav-items ul li {
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+
+header .nav-items ul li a {
+  text-decoration: none;
 }
