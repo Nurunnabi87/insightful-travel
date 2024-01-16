@@ -22,7 +22,8 @@ body {
 /* header section styles  */
 
 header {
-  margin: 50px 130px;
+  margin: 50px auto;
+  width: 1170px;
 }
 header .nav {
   display: flex;
@@ -58,4 +59,65 @@ header .nav-items ul li {
 
 header .nav-items ul li a {
   text-decoration: none;
+}
+
+header .banner {
+  height: 500px;
+  border-radius: 16px;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../images/group13.png") center no-repeat;
+
+  margin: 50px 0;
+  text-align: center;
+}
+
+.banner-title {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+  padding: 100px 280px 24px 280px;
+}
+
+.banner-description {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 0 250px 48px 250px;
+}
+
+.banner .search-option {
+  display: inline-flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.banner .search-option input,
+.banner .search-option select,
+.banner .search-option button {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #fff;
+  border: none;
+  color: rgba(19, 19, 24, 0.5);
+  padding-left: 16px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.banner .search-option button {
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
 }
