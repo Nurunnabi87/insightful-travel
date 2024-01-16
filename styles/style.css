@@ -8,6 +8,7 @@
 
 body {
   font-family: "Mulish", sans-serif;
+  min-width: 992px;
 }
 
 .nav-logo-text {
@@ -19,6 +20,18 @@ body {
   color: #ff5400;
 }
 
+.primary-btn {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #ff5400;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+}
 /* header section styles  */
 
 header {
@@ -120,4 +133,332 @@ header .banner {
   text-align: center;
   font-size: 16px;
   font-weight: 700;
+}
+
+/* tour section styles  */
+
+.tour {
+  margin: 50px auto;
+  width: 1170px;
+  display: flex;
+  gap: 50px;
+}
+
+.tour-title {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.tour-description-intro {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+.tour-description-list ul {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.tour-description-list li {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.tour-description-conclude {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 20px 0;
+}
+
+/* destinaion section styles  */
+.destinaion {
+  margin: 50px auto;
+  width: 1170px;
+}
+
+.destination-title {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.destination-description {
+  width: 640px;
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.destination-img {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.img-group-1,
+.img-group-2,
+.img-group-3 {
+  display: flex;
+  gap: 20px;
+}
+
+/* choose section styles  */
+
+.choose {
+  margin: 50px auto;
+  width: 1170px;
+}
+
+.choose-title {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.choose-description {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 640px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.card-group-1 {
+  display: flex;
+  gap: 24px;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+  width: 570px;
+  height: 250px;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.card-1,
+.card-3 {
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+
+.card-2 {
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+
+.card-title {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin: 20px 0;
+}
+
+.card-description {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 486px;
+}
+
+.card-3 {
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* deal section styles  */
+
+.deal {
+  margin: 50px auto;
+  width: 1170px;
+}
+.deal-title {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.deal-description {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 640px;
+  margin: 0 auto;
+}
+
+.deal-card-1 {
+  margin-top: 50px;
+  width: 1170px;
+  height: 500px;
+  border-radius: 16px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.deal-card-2 {
+  margin-top: 50px;
+  width: 1170px;
+  height: 500px;
+  border-radius: 16px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.deal-card-3 {
+  margin-top: 50px;
+  width: 1170px;
+  height: 500px;
+  border-radius: 16px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+/* place section styles  */
+
+.place {
+  margin: 50px auto;
+  width: 1170px;
+  display: flex;
+  gap: 50px;
+}
+
+.place-title {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 60px;
+  margin-bottom: 24px;
+}
+
+.place-description-intro {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+
+.place-description-list ul {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.tour-description-list li {
+  color: #131318;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.place-btn {
+  margin-top: 40px;
+}
+
+/* subscribe section styles  */
+.subscribe {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px auto;
+  width: 1170px;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  padding: 40px;
+}
+
+.newsletter-title {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.newsletter-description {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 350px;
+}
+
+.subscribe hr {
+  width: 390px;
+  height: 1px;
+  background: rgba(19, 19, 24, 0.1);
+}
+
+.subscribe input {
+  width: 390px;
+  height: 50px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  border: none;
+  color: rgba(19, 19, 24, 0.3);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 16px 0 16px 20px;
+}
+
+.btn-subscribe {
+  width: 390px;
+  height: 50px;
+}
+
+.subscribe-card {
+  width: 670px;
+  height: 420px;
+  border-radius: 16px;
+  background: url("../images/rectangle8.png"), lightgray 50% / cover no-repeat;
+  position: relative;
+}
+
+.subscribe-card button {
+  width: 320px;
+  height: 120px;
+  transform: rotate(-20deg);
+  border-radius: 16px;
+  background: #ff5400;
+  position: absolute;
+  bottom: 45px;
+  right: 0;
+}
+
+.subscribe-card p {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.subscribe-card h3 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
 }
